@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -18,6 +20,87 @@
         <p>Для многоугольника без самопересечений (но с дырками, общий случай) с вершинами в целых точках:</p>
         <p>S = i + <sup>b</sup>&frasl;<sub>2</sub> + h - 1</p>
         <p>, где S - площадь, i - количество целых точек внутри многоугольника, b - количество целых точек на границе многоугольника (в том числе на внутренних границах), h - количество дырок.</p>
+    </div>
+
+    <div>
+        <h2>Формула обобщённого радикала (формула корня из суммы или разности)</h2>
+
+        <p>$$\sqrt{a\pm\sqrt{b}} = \sqrt{\frac{a+\sqrt{a^2-b}}{2}} \pm \sqrt{\frac{a-\sqrt{a^2-b}}{2}}$$</p>
+    </div>
+    
+    <div>
+        <h2>Таблица тригонометрических функций</h2>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>x<sub>rad</sub></th>
+                    <th>x<sub>deg</sub></th>
+                    <th>sin(x)</th>
+                    <th>cos(x)</th>
+                    <th>tan(x)</th>
+                    <th>ctg(x)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>$$0$$</td>
+                    <td>$$0$$</td>
+                    <td>$$0$$</td>
+                    <td>$$1$$</td>
+                    <td>$$0$$</td>
+                    <td>$$&infin;$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{\pi}{2}$$</td>
+                    <td>$$90$$</td>
+                    <td>$$1$$</td>
+                    <td>$$0$$</td>
+                    <td>$$&infin;$$</td>
+                    <td>$$0$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{\pi}{4}$$</td>
+                    <td>$$45$$</td>
+                    <td>$$\frac{1}{\sqrt{2}}$$</td>
+                    <td>$$\frac{1}{\sqrt{2}}$$</td>
+                    <td>$$1$$</td>
+                    <td>$$1$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{\pi}{6}$$</td>
+                    <td>$$30$$</td>
+                    <td>$$\frac{1}{2}$$</td>
+                    <td>$$\frac{\sqrt{3}}{2}$$</td>
+                    <td>$$\frac{1}{\sqrt{3}}$$</td>
+                    <td>$$\sqrt{3}$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{\pi}{3}$$</td>
+                    <td>$$60$$</td>
+                    <td>$$\frac{\sqrt{3}}{2}$$</td>
+                    <td>$$\frac{1}{2}$$</td>
+                    <td>$$\sqrt{3}$$</td>
+                    <td>$$\frac{1}{\sqrt{3}}$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{\pi}{5}$$</td>
+                    <td>$$36$$</td>
+                    <td>$$\frac{\sqrt[4]{5}}{2\sqrt{\varphi}}$$</td>
+                    <td>$$\frac{\varphi}{2}$$</td>
+                    <td>$$\frac{\sqrt[4]{5}}{\varphi^{\frac32}}$$</td>
+                    <td>$$\frac{\varphi^{\frac32}}{\sqrt[4]{5}}$$</td>
+                </tr>
+                <tr>
+                    <td>$$\frac{2\pi}{5}$$</td>
+                    <td>$$72$$</td>
+                    <td>$$\frac{\sqrt[4]{5}}{2}\frac{\sqrt{\varphi}+\sqrt{\frac{1}{\varphi}}}{\varphi}$$</td>
+                    <td>$$\frac{1}{2\varphi}$$</td>
+                    <td>$$\sqrt[4]{5}\left(\sqrt{\varphi}+\sqrt{\frac{1}{\varphi}}\right)$$</td>
+                    <td>$$\frac{1}{\sqrt[4]{5}}\left(\sqrt{\varphi}-\sqrt{\frac{1}{\varphi}}\right)$$</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 </body>
